@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8e83c59-66be-492b-b5f2-a22328fe218e" name="Changes" comment="" />
+    <list default="true" id="f8e83c59-66be-492b-b5f2-a22328fe218e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bridgelab/FindTheMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelab/FindTheMaximum.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="UC2_Find_Maximum_Float" />
+        <entry key="$PROJECT_DIR$" value="UC3_Find_Maximum_String" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,20 +37,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.FindTheMaximumInteger">
+}</component>
+  <component name="RunManager" selected="Application.FindTheMaximum">
     <configuration name="FindTheMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bridgelab.FindTheMaximum" />
       <module name="generic_concept" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bridgelab.*" />
+          <option name="PATTERN" value="com.bridgelab.FindMaximum" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,7 +63,7 @@
       <module name="generic_concept" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bridgelab.*" />
+          <option name="PATTERN" value="com.bridgelab.FindMaximum" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,7 +76,7 @@
       <module name="generic_concept" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bridgelab.*" />
+          <option name="PATTERN" value="com.bridgelab.FindMaximum" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,7 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindTheMaximumInteger" />
+        <item itemvalue="Application.FindTheMaximum" />
         <item itemvalue="Application.PrintArrayUsingGenerics" />
         <item itemvalue="Application.PrintArray" />
       </list>

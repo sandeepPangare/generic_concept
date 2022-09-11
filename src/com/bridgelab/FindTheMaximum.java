@@ -1,23 +1,46 @@
 package com.bridgelab;
 
-public class FindTheMaximum {
-    public static void main(String[] args) {
-        System.out.println("Welcome to Find Maximum Float Problem using Generics: ");
-        String e = "Apple", f = "Orange", g = "Mango";    //take variables strings
+public class FindTheMaximum<T extends Comparable> {
+    T var1, var2, var3;
+    //create constructor
+    // If we want to initialize fields of the class with our own values,
+    // then use a parameterized constructor.
 
-        //calling directly without creating object bcoz testMaximum method also static.
-        testMaximum(e, f, g);//calling method
+    public FindTheMaximum(T var1, T var2, T var3) {
+        this.var1 = var1;
+        this.var2 = var2;
+        this.var3 = var3;
+    }
+    public static void main(String[] args) {
+        System.out.println("Welcome to Generic Program.");
+
+        // taking variables for integer float string
+        Integer a = 99, b = 94, c = 89;
+        Float p = 89.29f, q = 9.99f, r = 90.94f;
+        String e = "Apple", f = "Orange", g = "Mango";
+
+
+        new FindTheMaximum<>(a, b, c).max();
+        new FindTheMaximum<>(p, q, r).max();
+        new FindTheMaximum<>(e, f, g).max();
     }
 
-    //creating testMaximum method and passing parameter in string type
-    private static void testMaximum(String e, String f, String g) {
-        String max = e; //checking condition comparing and finding max string
-        if (f.compareTo(e) > 0) {
-            max = f;
+    // create max method
+    private void max() {
+        FindTheMaximum.getMaximum(var1, var2, var3);
+
+    }
+    //create generic method the Generic Type extends Comparable
+    private static <T extends Comparable> void getMaximum(T a, T b, T c) {
+
+        T max = a;
+        if (b.compareTo(a) > 0) {
+            max = b;
         }
-        if (g.compareTo(max) > 0) {
-            max = g;
+        if (c.compareTo(max) > 0) {
+            max = c;
         }
-        System.out.println("Maximum String is: " + max);//print maximum string
+        System.out.println("Maximum ::" + max);  //print maximum no and string
+
     }
 }

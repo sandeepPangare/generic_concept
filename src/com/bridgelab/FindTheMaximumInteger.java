@@ -2,18 +2,21 @@ package com.bridgelab;
 
 public class FindTheMaximumInteger {
     public static void main(String[] args) {
-        System.out.println("Welcome to Find Maximum Integers Problem using Generics: ");
-        Integer a = 89, b =99, c = 29;//variables
-        testMaximum (a,b,c);//calling method
+        System.out.println("Welcome to Find Maximum Float Problem using Generics: ");
+        Float a= 6.89f, b = 9.99f, c = 9.96f;  //takiing variables float no.
+
+        testMaximum(a, b, c);  //calling method
     }
-    private static void testMaximum(Integer a,Integer b, Integer c){
-        Integer max =a;//checking the condition
-        if(b.compareTo(a)>0){
+    //creating testMaximum method and passing parameters.
+    private static void testMaximum(Float a, Float b, Float c) {
+        Float max = a; //checking condition and find max float no
+        if (b.compareTo(a) > 0) {
             max = b;
         }
-        if(c.compareTo(max)>0){
-            max =c;
+        if (c.compareTo(max) > 0) {
+            max = c;
         }
-        System.out.println("Maximum Number is "+max);
+        System.out.println("Maximum Number is: " + max); //print maximum float no.
+
     }
 }

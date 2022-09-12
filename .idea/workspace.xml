@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f8e83c59-66be-492b-b5f2-a22328fe218e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelab/FindTheMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelab/FindTheMaximum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Refractor_1" />
+        <entry key="$PROJECT_DIR$" value="Refractor_2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
